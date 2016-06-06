@@ -1,6 +1,16 @@
 {
-	"name"    : "Fundamentos de Mercadotecnia",
-	"version" : "0.1.0",
-	"main"    : "app/js/app.js",
-	"license" : "UNLICENSED"
+  "name": "fdm",
+  "version": "0.1.0",
+  "main": "app.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ FDM --all --out ~/Documentos/FDM --version 1.0.0 --overwrite"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^1.2.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.3"
+  }
 }
