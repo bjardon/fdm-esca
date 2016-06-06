@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FDM | Unidad 1 | Cuestionario</title>
+	<base href="../../../">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/cover.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+	<div class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="masthead clearfix">
+					<div class="inner">
+						<h3 class="masthead-brand">Fundamentos de Mercadotecnia</h3>
+						<nav>
+							<ul class="nav masthead-nav">
+								<li><a href="html/units/unit1/unit1.html">Inicio de la Unidad</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menú <i class="fa fa-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li><a href="html/units/unit1/program.html">Programa</a></li>
+										<li><a href="html/units/unit1/slides.html">Diapositivas</a></li>
+										<li><a href="html/units/unit1/video.html">Video</a></li>
+										<li><a href="html/units/unit1/map.html">Mapa</a></li>
+										<li><a href="html/units/unit1/questionnaire.html">Cuestionario</a></li>
+										<li><a href="html/units/unit1/notes.html">Fichas</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="inner cover">
+					<main>
+						<article id="hideable">
+							<h1 class="cover-heading">Cuestionario</h1>
+							<p class="lead">Haga click a continuación para hacer el cuestionario</p>
+							<div id="btnGo" class="btn btn-lg btn-default"><i class="fa fa-play"></i> Iniciar</div>
+						</article>
+						<article id="cntQuestionnaire" class="lead">
+							<p>Indique si la siguiente afirmación es verdadera o falsa</p>
+							<h1 id="title">Pregunta</h1>
+							<p class="lead" id="question"></p>
+							<p><br><button id="btnTrue" class="btn btn-lg btn-default" style="width: 49%">Verdadero</button> <button id="btnFalse" class="btn btn-lg btn-default" style="width: 49%">Falso</button></p>
+						</article>
+						<article id="cntResult" class="lead">
+							<h1>Resultado</h1>
+							<p><strong>Respuestas correctas:</strong> <span id="correct"></span></p>
+							<p><strong>Total de preguntas evaluadas:</strong> <span id="total"></span></p>
+							<p><strong>Calificación:</strong> <span id="avg"></span></p>
+							<p id="phrase"></p>
+							<p><a href="html/units/unit1/questionnaire.html" class="btn btn-lg btn-default"><i class="fa fa-refresh"></i> Resolver de nuevo</a></p>
+						</article>
+					</main>
+				</div>
+				<div class="mastfoot">
+					<div class="inner">
+						<a href="html/units/unit1/map.html" class="btn btn-lg btn-default"><i class="fa fa-caret-left"></i> Anterior</a>  <a href="html/units/unit1/notes.html" id="btnNext" class="btn btn-lg btn-default disabled">Siguiente <i class="fa fa-caret-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/_jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/quizzes.js"></script>
+	<script src="js/run-tf-quizz.js"></script>
+</body>
+</html>
+
