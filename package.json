@@ -5,7 +5,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager ./ FDM --all --out ~/Documentos/FDM --version 1.0.0 --overwrite"
+    "package-all": "electron-packager ./ FDM --all --out ~/Documentos/FDM --version 1.0.0 --overwrite",
+    "package-win": "electron-packager ./ FDM --platform=win32 --out ~/Documentos/FDM --version 1.0.0 --overwrite",
+    "package-lin": "electron-packager ./ FDM --platform=linux --out ~/Documentos/FDM --version 1.0.0 --overwrite"
   },
   "dependencies": {
     "electron-prebuilt": "^1.2.1"

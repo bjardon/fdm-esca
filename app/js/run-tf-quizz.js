@@ -1,4 +1,4 @@
-var quizz = handler.getquizz1();
+var quizz = handler.getquizz(parseInt($("#_quizz").text()));
 var current = 0;
 var points = 0;
 var total = quizz.questions.length;
