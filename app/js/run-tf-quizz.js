@@ -1,3 +1,8 @@
+/**
+  Copyright 2016
+  Written by Jardón Fonseca Bruno
+  http://bjardon.github.io
+**/
 var quizz = handler.getquizz(parseInt($("#_quizz").text()));
 var current = 0;
 var points = 0;

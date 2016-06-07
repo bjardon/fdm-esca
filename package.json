@@ -1,8 +1,9 @@
 {
   "name": "fdm",
   "version": "0.1.0",
+  "description": "Aplicación en ElectronJS, contiene el curso de FDM de la ESCA (STO), (Proyecto escolar)",
   "main": "app.js",
-  "license": "UNLICENSED",
+  "license": "NO LICENSE",
   "scripts": {
     "start": "electron .",
     "package-all": "electron-packager ./ FDM --all --out ~/Documentos/FDM --version 1.0.0 --overwrite",

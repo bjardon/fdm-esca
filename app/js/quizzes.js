@@ -1,3 +1,8 @@
+/**
+  Copyright 2016
+  Written by Jardón Fonseca Bruno
+  http://bjardon.github.io
+**/
 var q1 = {
 	name: "Cuestionario 1",
 	unit: 1,
