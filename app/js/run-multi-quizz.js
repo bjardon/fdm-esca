@@ -6,7 +6,7 @@
 var quizz = handler.getquizz(parseInt($("#_quizz").text()));
 var current = 0;
 var points = 0;
-var total = 3;//quizz.questions.length;
+var total = quizz.questions.length;
 
 $(document).ready(function() {
 	$("#cntQuestionnaire").hide();
